@@ -9,7 +9,7 @@ app.post("/api", (req, res) => {
   res.send("Our express api server is now sending this over to the browser");
 });
   res.json(
-    {message: "hello"}
+    {message: "This is express"}
   )
 
 const server = app.listen(8000, () =>
